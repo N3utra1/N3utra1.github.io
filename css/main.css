@@ -2,18 +2,18 @@ div{
   /* placement */
   width: 50%;
   height: 400px;
-  border: 200px solid black;
+  border: 200px solid oldlace;
   /* styling */
-  background-color:black;
+  background-color:oldlace;
 }
 
 a{
-  color: white;
+  color: black; 
   background-color: transparent;
   text-decoration: none;
 }
 a:hover{
-  background-color: red;
+  background-color: lightslategray;
 }
 
 h1{
@@ -25,13 +25,22 @@ h1{
 h1 span{
   /* placement */
   /* styling */
-  background-color: red;
-  color:white;
+  background-color: lightslategray;
+  color:oldlace;
 }
 
 body{
   /* placement */
   /* styling */
-  background-color: black;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: oldlace;
+  font-family: 'Courier New', monospace;
+
+}
+
+li{
+  list-style: none;
+}
+
+p{
+  padding: 20px;
 }
