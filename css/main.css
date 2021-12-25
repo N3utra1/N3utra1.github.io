@@ -2,9 +2,18 @@ div{
   /* placement */
   width: 50%;
   height: 400px;
-  border: 200px solid oldlace;
+  border: 125px solid oldlace;
   /* styling */
   background-color:oldlace;
+}
+
+.noborder{
+  border: 10px solid oldlace;
+  height: auto;
+}
+
+.indexMenu{
+  border: 200px solid oldlace;
 }
 
 a{
@@ -44,3 +53,56 @@ li{
 p{
   padding: 20px;
 }
+
+.topnav {
+  background-color: oldlace;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightslategray;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: lightslategray;
+  color: oldlace;
+}
+
+
+/* Style the search box */
+#values{
+  width: 100%;
+  padding: 11px;
+  border: 1px solid oldlace;
+}
+
+/* Style the navigation menu */
+#menu{
+  list-style-type: none;
+  padding: 11px;
+  margin: 0;
+}
+
+/* Style the navigation links */
+#menu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#menu li a:hover {
+  background-color: lightslategray;
+} 
