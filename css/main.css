@@ -106,3 +106,17 @@ p{
 #menu li a:hover {
   background-color: lightslategray;
 } 
+
+.homepage-div {
+  width: 100%;
+  display: table;
+}
+
+.container {
+  display: table-row;
+}
+
+.small{
+  display: table-cell;
+  font-size: 24px;;
+}
